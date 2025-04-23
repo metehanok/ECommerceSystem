@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Oluştur</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 30px;
+            background: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input, button {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .response {
+            margin-top: 20px;
+            white-space: pre-wrap;
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Yeni Sipariş Oluştur</h2>
+
+        
+        <input type="datetime-local" id="orderDate" placeholder="Tarih" required />
+        <input type="number" id="productId" placeholder="Ürün" required />
+        <input type="number" id="quantity" placeholder="Adet" required />
+
+        <button onclick="createOrder()">Sipariş Gönder</button>
+
+        <div class="response" id="responseArea"></div>
+    </div>
+
+    <script>
+    async function createOrder() {
+      const customerId = document.getElementById("customerId").value;
+      const orderDate = document.getElementById("orderDate").value;
+      const productId = document.getElementById("productId").value;
+      const quantity = document.getElementById("quantity").value;
+
+      const orderData = {
+        customerId: parseInt(customerId),
+        orderDate: new Date(orderDate).toISOString(),
+        products: [
+          {
+            productId: parseInt(productId),
+            quantity: parseInt(quantity)
+          }
+        ]
+      };
+
+      try {
+        const res = await fetch("https://localhost:44320/api/order", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(orderData)
+        });
+
+        const data = await res.json();
+        document.getElementById("responseArea").innerText = JSON.stringify(data, null, 2);
+      } catch (err) {
+        document.getElementById("responseArea").innerText = "Hata oluştu: " + err.message;
+      }
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Müşteri Kaydı</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 40px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            font-size: 1em;
+        }
+
+        .message {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Yeni Müşteri Kaydı</h1>
+
+    <form id="customerForm">
+        <input type="text" id="name" placeholder="Ad Soyad" required />
+        <input type="email" id="email" placeholder="E-posta" required />        
+        <input type="password" id="password" placeholder="Şifre" required />
+        <input type="text" id="address" placeholder="Adres" required />
+        <button type="submit">Kaydet</button>
+    </form>
+
+    <div class="message" id="messageBox"></div>
+
+    <script>
+        document.getElementById('customerForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const address = document.getElementById('address').value.trim();
+
+            const customerData = {
+                name: name,
+                email: email,
+                address: address
+            };
+
+            try {
+                const response = await fetch('/api/customers', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(customerData)
+                });
+
+                const messageBox = document.getElementById('messageBox');
+
+                if (response.ok) {
+                    const result = await response.json();
+                    messageBox.textContent = 'Müşteri başarıyla eklendi. ID: ' + result.id;
+                    messageBox.style.color = 'green';
+                    document.getElementById('customerForm').reset();
+                } else {
+                    const errorData = await response.json();
+                    messageBox.textContent = 'Hata: ' + (errorData.title || 'Kayıt başarısız.');
+                    messageBox.style.color = 'red';
+                }
+
+            } catch (error) {
+                document.getElementById('messageBox').textContent = 'Bir hata oluştu.';
+                document.getElementById('messageBox').style.color = 'red';
+                console.error(error);
+            }
+        });
+    </script>
+
+</body>
+</html>

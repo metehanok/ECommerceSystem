@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Siparişlerim</title>
+</head>
+<body>
+    <h2>Siparişlerim</h2>
+    <div id="orderList">Yükleniyor...</div>
+
+    <button onclick="logout()">Çıkış Yap</button>
+
+    <script>
+        const customerId = localStorage.getItem("customerId");
+
+        if (!customerId) {
+            alert("Lütfen önce giriş yapın.");
+            window.location.href = "login.html";
+        }
+
+        fetch(`https://localhost:44320/api/Order/customer/${customerId}`)
+            .then(res => res.json())
+            .then(data => {
+                const orderList = document.getElementById("orderList");
+                orderList.innerHTML = "";
+
+                if (data.length === 0) {
+                    orderList.innerHTML = "Hiç siparişiniz yok.";
+                    return;
+                }
+
+                data.forEach(order => {
+                    const orderItem = document.createElement("div");
+                    orderItem.innerHTML = `
+                <hr />
+                <p><strong>Sipariş ID:</strong> ${order.id}</p>
+                <p><strong>Tarih:</strong> ${new Date(order.orderDate).toLocaleDateString()}</p>
+                <p><strong>Tutar:</strong> ${order.totalAmount} ₺</p>
+              `;
+                    orderList.appendChild(orderItem);
+                });
+            })
+            .catch(err => {
+                console.error(err);
+                document.getElementById("orderList").innerText = "Siparişler yüklenemedi.";
+            });
+
+        function logout() {
+            localStorage.removeItem("customerId");
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>
+
