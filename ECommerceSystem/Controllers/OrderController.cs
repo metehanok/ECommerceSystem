@@ -1,4 +1,5 @@
 ﻿using ECommerceSystem.Core.IServices;
+using ECommerceSystem.Core.Models;
 using ECommerceSystem.Service.DTO;
 using ECommerceSystem.Validations;
 using Microsoft.AspNetCore.Http;
@@ -55,8 +56,19 @@ namespace ECommerceSystem.Controllers
             var updatedOrder=await _orderService.UpdateOrdersAsync(orderUpdateDTO,id);
             return NoContent();
         }
-        [HttpDelete("{id}")]
+        [HttpGet("customer/{customerId}")]
+        public async Task<ActionResult<IEnumerable<OrderReadDTO>>> GetOrdersByCustomerId(int customerId)
+        {
+            var orders = await _orderService.GetOrdersByCustomerIdAsync(customerId);
 
+            if (orders == null || !orders.Any())
+            {
+                return NotFound("Hiç sipariş bulunamadı.");
+            }
+
+            return Ok(orders);
+        }
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteOrders(int id)
         {
             var deletedOrder=await _orderService.DeleteOrdersAsync(id);

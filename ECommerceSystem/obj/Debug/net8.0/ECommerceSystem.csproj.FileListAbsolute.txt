@@ -158,3 +158,4 @@ C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.pdb
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.genruntimeconfig.cache
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ref\ECommerceSystem.dll
+C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.sourcelink.json

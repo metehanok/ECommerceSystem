@@ -30,7 +30,7 @@ namespace ECommerceSystem.Service
             CreateMap<CategoryUpdateDTO,Categories>();
             CreateMap<CategoryCreateDTO,Categories>();
 
-            CreateMap<Orders, OrderReadDTO>().ForMember(src=>src.CustomerName,opt=>opt.MapFrom(z=>z.Customers.Name));
+            CreateMap<Orders, OrderReadDTO>();
             CreateMap<OrderDetails, OrderDetailDTO>()  // OrderDetails ve OrderDetailDTO arasında eşleme ekledik
             .ForMember(dest => dest.TotalPrice, opt => opt.MapFrom(src => src.Quantity * src.Price)); // TotalPrice hesaplaması
             CreateMap<OrderCreateDTO,Orders>();

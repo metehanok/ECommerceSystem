@@ -11,7 +11,7 @@ namespace ECommerceSystem.Service.DTO
     public class OrderReadDTO
     {
         public int Id { get; set; }
-        public string CustomerName { get; set; }//automapper ile maplenecek
+        //public string CustomerName { get; set; }//automapper ile maplenecek
 
         public int CustomerId { get; set; }
         [Required]

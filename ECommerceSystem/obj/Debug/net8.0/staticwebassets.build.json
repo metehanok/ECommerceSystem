@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7RUsIJCL6UPdXBwSk1W70klmCJlsKnqOHCgKQV3ZKsE=",
+  "Hash": "4bm8hY6r18SpiYDA3EMy8tvzAtTtyr84UuzeBA0V37g=",
   "Source": "ECommerceSystem",
   "BasePath": "_content/ECommerceSystem",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5qwla04aqu",
-      "Integrity": "E10TM2D2W+GbFEcPNlZWuCfgQAMqSbGV504jLSzlOmg=",
+      "Fingerprint": "0we6iadjgy",
+      "Integrity": "ICU5b5UApNvVJhaPdEWfIivyYO/Jzu4vtYTQtCuQPmM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6ffzpcxxp3",
-      "Integrity": "Lg6amIqgbA/PZlTQ7QDfkYySB2JQnpDd+ogQmE3TbNg=",
+      "Fingerprint": "gbn9dydax8",
+      "Integrity": "TCPxSNqqzIdKVTzgZ5AFpGxFpteYfHOuxfb+CL9LDXc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\orderslisting.html"
@@ -103,7 +103,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "index.5qwla04aqu.html",
+      "Route": "index.0we6iadjgy.html",
       "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -113,7 +113,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2104"
+          "Value": "2231"
         },
         {
           "Name": "Content-Type",
@@ -121,11 +121,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"E10TM2D2W+GbFEcPNlZWuCfgQAMqSbGV504jLSzlOmg=\""
+          "Value": "\"ICU5b5UApNvVJhaPdEWfIivyYO/Jzu4vtYTQtCuQPmM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 12:34:03 GMT"
+          "Value": "Thu, 24 Apr 2025 14:19:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -135,7 +135,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5qwla04aqu"
+          "Value": "0we6iadjgy"
         },
         {
           "Name": "label",
@@ -143,7 +143,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-E10TM2D2W+GbFEcPNlZWuCfgQAMqSbGV504jLSzlOmg="
+          "Value": "sha256-ICU5b5UApNvVJhaPdEWfIivyYO/Jzu4vtYTQtCuQPmM="
         }
       ]
     },
@@ -158,7 +158,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2104"
+          "Value": "2231"
         },
         {
           "Name": "Content-Type",
@@ -166,11 +166,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"E10TM2D2W+GbFEcPNlZWuCfgQAMqSbGV504jLSzlOmg=\""
+          "Value": "\"ICU5b5UApNvVJhaPdEWfIivyYO/Jzu4vtYTQtCuQPmM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 12:34:03 GMT"
+          "Value": "Thu, 24 Apr 2025 14:19:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -180,7 +180,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-E10TM2D2W+GbFEcPNlZWuCfgQAMqSbGV504jLSzlOmg="
+          "Value": "sha256-ICU5b5UApNvVJhaPdEWfIivyYO/Jzu4vtYTQtCuQPmM="
         }
       ]
     },
@@ -207,7 +207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 11:52:50 GMT"
+          "Value": "Wed, 23 Apr 2025 15:12:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -244,7 +244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 11:52:50 GMT"
+          "Value": "Wed, 23 Apr 2025 15:12:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "Route": "orderslisting.6ffzpcxxp3.html",
+      "Route": "orderslisting.gbn9dydax8.html",
       "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\orderslisting.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -277,7 +277,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1786"
+          "Value": "1878"
         },
         {
           "Name": "Content-Type",
@@ -285,11 +285,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Lg6amIqgbA/PZlTQ7QDfkYySB2JQnpDd+ogQmE3TbNg=\""
+          "Value": "\"TCPxSNqqzIdKVTzgZ5AFpGxFpteYfHOuxfb+CL9LDXc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 12:11:33 GMT"
+          "Value": "Thu, 24 Apr 2025 14:42:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -299,7 +299,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6ffzpcxxp3"
+          "Value": "gbn9dydax8"
         },
         {
           "Name": "label",
@@ -307,7 +307,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Lg6amIqgbA/PZlTQ7QDfkYySB2JQnpDd+ogQmE3TbNg="
+          "Value": "sha256-TCPxSNqqzIdKVTzgZ5AFpGxFpteYfHOuxfb+CL9LDXc="
         }
       ]
     },
@@ -322,7 +322,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1786"
+          "Value": "1878"
         },
         {
           "Name": "Content-Type",
@@ -330,11 +330,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Lg6amIqgbA/PZlTQ7QDfkYySB2JQnpDd+ogQmE3TbNg=\""
+          "Value": "\"TCPxSNqqzIdKVTzgZ5AFpGxFpteYfHOuxfb+CL9LDXc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 12:11:33 GMT"
+          "Value": "Thu, 24 Apr 2025 14:42:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -344,7 +344,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Lg6amIqgbA/PZlTQ7QDfkYySB2JQnpDd+ogQmE3TbNg="
+          "Value": "sha256-TCPxSNqqzIdKVTzgZ5AFpGxFpteYfHOuxfb+CL9LDXc="
         }
       ]
     },
@@ -371,7 +371,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 12:13:50 GMT"
+          "Value": "Wed, 23 Apr 2025 15:12:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -416,7 +416,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 12:13:50 GMT"
+          "Value": "Wed, 23 Apr 2025 15:12:55 GMT"
         },
         {
           "Name": "Cache-Control",

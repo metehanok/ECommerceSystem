@@ -15,39 +15,39 @@
 
         if (!customerId) {
             alert("Lütfen önce giriş yapın.");
-            window.location.href = "login.html";
-        }
+            window.location.href = "index.html";
+        } else {
 
-        fetch(`https://localhost:44320/api/Order/customer/${customerId}`)
-            .then(res => res.json())
-            .then(data => {
-                const orderList = document.getElementById("orderList");
-                orderList.innerHTML = "";
+            fetch(`https://localhost:44320/api/order/customer/${customerId}`)
+                .then(res => res.json())
+                .then(data => {
+                    const orderList = document.getElementById("orderList");
+                    orderList.innerHTML = "";
 
-                if (data.length === 0) {
-                    orderList.innerHTML = "Hiç siparişiniz yok.";
-                    return;
-                }
+                    if (data.length === 0) {
+                        orderList.innerHTML = "Hiç siparişiniz yok.";
+                        return;
+                    }
 
-                data.forEach(order => {
-                    const orderItem = document.createElement("div");
-                    orderItem.innerHTML = `
+                    data.forEach(order => {
+                        const orderItem = document.createElement("div");
+                        orderItem.innerHTML = `
                 <hr />
                 <p><strong>Sipariş ID:</strong> ${order.id}</p>
                 <p><strong>Tarih:</strong> ${new Date(order.orderDate).toLocaleDateString()}</p>
                 <p><strong>Tutar:</strong> ${order.totalAmount} ₺</p>
               `;
-                    orderList.appendChild(orderItem);
+                        orderList.appendChild(orderItem);
+                    });
+                })
+                .catch(err => {
+                    console.error(err);
+                    document.getElementById("orderList").innerText = "Siparişler yüklenemedi.";
                 });
-            })
-            .catch(err => {
-                console.error(err);
-                document.getElementById("orderList").innerText = "Siparişler yüklenemedi.";
-            });
-
+        }
         function logout() {
             localStorage.removeItem("customerId");
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         }
     </script>
 </body>

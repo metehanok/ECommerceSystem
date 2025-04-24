@@ -10,3 +10,4 @@ C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem.Core\obj\Debug\
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem.Core\obj\Debug\net8.0\refint\ECommerceSystem.Core.dll
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.pdb
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem.Core\obj\Debug\net8.0\ref\ECommerceSystem.Core.dll
+C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.sourcelink.json

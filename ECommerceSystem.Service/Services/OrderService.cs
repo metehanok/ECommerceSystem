@@ -97,5 +97,11 @@ namespace ECommerceSystem.Service.Services
             return true;
 
         }
+        public async Task<IEnumerable<OrderReadDTO>> GetOrdersByCustomerIdAsync(int id)
+        {
+           var orders=  await _dbContext.Orders.Where(o=>o.CustomerId == id).ToListAsync();
+
+            return _mapper.Map<IEnumerable<OrderReadDTO>>(orders);
+        }
     }
 }
