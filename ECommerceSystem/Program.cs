@@ -94,6 +94,7 @@ if (app.Environment.IsDevelopment())
 app.UseDefaultFiles(); // Varsayýlan dosya olarak 'index.html' kullanýlýr
 app.UseStaticFiles();
 
+builder.WebHost.UseUrls("http://0.0.0.0:5001");//render için 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
