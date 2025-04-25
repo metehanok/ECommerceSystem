@@ -96,7 +96,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", policy =>
     {
-        policy.WithOrigins("https://ecommercesystem-1.onrender.com/api/auth/login") // Frontend URL'sini buraya ekleyin
+        policy.WithOrigins("https://ecommercesystem-1.onrender.com") // Frontend URL'sini buraya ekleyin
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
