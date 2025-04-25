@@ -91,6 +91,16 @@ if (app.Environment.IsDevelopment())
     //}
 
 }
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", policy =>
+    {
+        policy.WithOrigins("https://ecommercesystem-1.onrender.com") // Frontend URL'sini buraya ekleyin
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 app.UseDefaultFiles(); // Varsayýlan dosya olarak 'index.html' kullanýlýr
 app.UseStaticFiles();
 
