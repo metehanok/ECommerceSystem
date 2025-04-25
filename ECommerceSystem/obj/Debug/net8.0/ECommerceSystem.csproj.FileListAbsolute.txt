@@ -140,6 +140,7 @@ C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.csproj.CoreCompileInputs.cache
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.sourcelink.json
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\scopedcss\bundle\ECommerceSystem.styles.css
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\staticwebassets.development.json
@@ -158,4 +159,3 @@ C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.pdb
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.genruntimeconfig.cache
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ref\ECommerceSystem.dll
-C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.sourcelink.json

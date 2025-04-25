@@ -8,7 +8,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Çözüm dosyasýný kopyala
-COPY ["ECommerceSystem.sln", "./"]
+COPY ["ECommerceSystem.API.sln", "./"]
 
 # Projeleri kopyala
 COPY ["ECommerceSystem/ECommerceSystem.csproj", "ECommerceSystem/"]
@@ -17,15 +17,15 @@ COPY ["ECommerceSystem.Data/ECommerceSystem.Data.csproj", "ECommerceSystem.Data/
 COPY ["ECommerceSystem.Service/ECommerceSystem.Service.csproj", "ECommerceSystem.Service/"]
 
 # NuGet restore iþlemi
-RUN dotnet restore "ECommerceSystem.sln"
+RUN dotnet restore "ECommerceSystem.API.sln"
 
 # Projeleri build et
 COPY . . 
-RUN dotnet build "ECommerceSystem.sln" -c Release -o /app/build
+RUN dotnet build "ECommerceSystem.API.sln" -c Release -o /app/build
 
 # Uygulama dosyalarýný çýkar
 FROM build AS publish
-RUN dotnet publish "ECommerceSystem.sln" -c Release -o /app/publish
+RUN dotnet publish "ECommerceSystem.API.sln" -c Release -o /app/publish
 
 # Çalýþtýrma aþamasý
 FROM base AS final
@@ -34,3 +34,4 @@ COPY --from=publish /app/publish .
 
 # Burada doðru .dll dosyasýný belirtiyoruz
 ENTRYPOINT ["dotnet", "ECommerceSystem.dll"]
+
