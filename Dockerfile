@@ -12,7 +12,7 @@ WORKDIR /src
 COPY ["ECommerceSystem.sln", "./"]
 
 # Projeleri kopyala
-COPY ["ECommerceSystem.WebAPI/ECommerceSystem.WebAPI.csproj", "ECommerceSystem.WebAPI/"]
+COPY ["ECommerceSystem/ECommerceSystem.csproj", "ECommerceSystem/"]
 COPY ["ECommerceSystem.Core/ECommerceSystem.Core.csproj", "ECommerceSystem.Core/"]
 COPY ["ECommerceSystem.Data/ECommerceSystem.Data.csproj", "ECommerceSystem.Data/"]
 COPY ["ECommerceSystem.Service/ECommerceSystem.Service.csproj", "ECommerceSystem.Service/"]
