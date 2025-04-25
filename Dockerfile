@@ -16,7 +16,6 @@ COPY ["ECommerceSystem/ECommerceSystem.csproj", "ECommerceSystem/"]
 COPY ["ECommerceSystem.Core/ECommerceSystem.Core.csproj", "ECommerceSystem.Core/"]
 COPY ["ECommerceSystem.Data/ECommerceSystem.Data.csproj", "ECommerceSystem.Data/"]
 COPY ["ECommerceSystem.Service/ECommerceSystem.Service.csproj", "ECommerceSystem.Service/"]
-#COPY ["ECommerceSystemWebAPI.Test/ECommerceSystemWebAPI.Test.Unit.csproj", "ECommerceSystemWebAPI.Test/"]
 
 # NuGet restore iþlemi
 RUN dotnet restore "ECommerceSystem.sln"
