@@ -96,6 +96,7 @@ app.UseCors(build=>
     
     build.WithOrigins("https://ecommercesystem-1.onrender.com") // Frontend URL'sini buraya ekleyin
               .AllowAnyMethod()
+              .AllowAnyOrigin()
               .AllowAnyHeader());
 
 app.UseDefaultFiles(); // Varsayýlan dosya olarak 'index.html' kullanýlýr
