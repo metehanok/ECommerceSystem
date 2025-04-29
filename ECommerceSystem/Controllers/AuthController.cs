@@ -17,19 +17,32 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] CustomerLoginDTO customerLoginDTO)
     {
-        if(!ModelState.IsValid) return BadRequest(ModelState);
-        var customer = await _customerService.AuthenticateCustomerAsync(customerLoginDTO);
-        if(customerLoginDTO.Email=="test@example.com" && customerLoginDTO.Password == "1234")
+        Console.WriteLine($"Login attempt: Email={customerLoginDTO?.Email}, Password={customerLoginDTO?.Password}");
+
+        if (customerLoginDTO == null)
         {
-            return Ok(new { message = "Giriş başarılı", customer });
+            return BadRequest("İstek verisi eksik.");
         }
+
+        if (string.IsNullOrEmpty(customerLoginDTO.Email) || string.IsNullOrEmpty(customerLoginDTO.Password))
+        {
+            return BadRequest("E-posta ve şifre gerekli.");
+        }
+
+        // Sadece test için:
+        if (customerLoginDTO.Email == "test@example.com" && customerLoginDTO.Password == "1234")
+        {
+            return Ok(new { message = "Giriş başarılı", customer = customerLoginDTO });
+        }
+
+        var customer = await _customerService.AuthenticateCustomerAsync(customerLoginDTO);
 
         if (customer == null)
         {
-            return NotFound();  
+            return Unauthorized(new { message = "Geçersiz e-posta veya şifre" });
         }
 
-        return Unauthorized(new { message = "Geçersiz e-posta veya şifre" });
+        return Ok(new { message = "Giriş başarılı", customer });
     }
 }
 
