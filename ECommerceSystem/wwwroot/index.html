@@ -98,26 +98,28 @@
             const password = document.getElementById("password").value;
 
             // API request to login
-            const response = await fetch('https://ecommercesystem-1.onrender.com/api/auth/login', {
-                method: 'POST',
+            fetch("https://ecommercesystem-1.onrender.com/api/auth/login", {
+                method: "POST",
                 headers: {
-                    'Content-Type': 'application/json',
+                    "Content-Type": "application/json"
                 },
-                body: JSON.stringify({ email: email, password: password })
-            });
-
-            const data = await response.json();  // Getting the response data
-
-            if (response.ok && data.customer && data.customer.customerId) {
-                // Store customerId in localStorage
-                localStorage.setItem("customerId", data.customerId);
-
-                // Redirect to orders listing page
-                window.location.replace("orderslisting.html");
-            } else {
-                // Show error message
-                alert('Giriş yaparken bir hata oluştu: ' + (data.message || "Bilinmeyen hata"));
-            }
+                body: JSON.stringify({ email, password })
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Giriş başarısız.");
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    alert("Giriş başarılı: " + data.message);
+                    // İsteğe bağlı olarak token’ı sakla ve yönlendirme yap
+                })
+                .catch(error => {
+                    alert("Hata: " + error.message);
+                    console.error("Giriş hatası:", error);
+                });
+       
         });
     </script>
 
