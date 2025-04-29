@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\log.svg",
+      "PackagePath": "staticwebassets\\img\\log.svg"
+    },
+    {
+      "Id": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\register.svg",
+      "PackagePath": "staticwebassets\\img\\register.svg"
+    },
+    {
       "Id": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
@@ -15,6 +27,10 @@
     {
       "Id": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\register.html",
       "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ECommerceSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

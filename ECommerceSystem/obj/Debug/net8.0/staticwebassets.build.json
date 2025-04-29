@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xQ/YK/ZHbXa5kY5xVwIu2lDntLu5tMIqXpwYWw2K7TE=",
+  "Hash": "e3XS9B0gSiWHIEHQmDuFJKHcv096HZn3GnvkqkxFU7M=",
   "Source": "ECommerceSystem",
   "BasePath": "_content/ECommerceSystem",
   "Mode": "Default",
@@ -17,6 +17,69 @@
   ],
   "Assets": [
     {
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\app.js",
+      "SourceId": "ECommerceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "BasePath": "_content/ECommerceSystem",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4mh1c3zs4y",
+      "Integrity": "bLdeRG0TLA1TAf9DVCLvvVka+0AWqavVGKmNiLi54jM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\log.svg",
+      "SourceId": "ECommerceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "BasePath": "_content/ECommerceSystem",
+      "RelativePath": "img/log#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7vr240vm1k",
+      "Integrity": "k+3l+zHhltQHI6agYXULhrQ4M2/Cw1eL/R+9AnDJ6EU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\log.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\register.svg",
+      "SourceId": "ECommerceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "BasePath": "_content/ECommerceSystem",
+      "RelativePath": "img/register#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "feyplrt2cv",
+      "Integrity": "mbSqpg+Y1vftj78dpFTwu957kbMtv8ouGVZn174gw0s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\register.svg"
+    },
+    {
       "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\index.html",
       "SourceId": "ECommerceSystem",
       "SourceType": "Discovered",
@@ -31,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hak8ewlcrd",
-      "Integrity": "ubbnPcwtf1J/ShHtxpOrnCNhtebzXZ7jGl63NJLA3Bw=",
+      "Fingerprint": "d6wv9of81f",
+      "Integrity": "W1Jiez0XzGHfpXXTLCVFc1We/8Jma90TVgbKkjQWNjU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -99,12 +162,33 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\register.html"
+    },
+    {
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\style.css",
+      "SourceId": "ECommerceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "BasePath": "_content/ECommerceSystem",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zvm85ug9vg",
+      "Integrity": "IT1qXp3VaTSlrlw512GzURFvd7Pp6IewWIV2yCoddUA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
     }
   ],
   "Endpoints": [
     {
-      "Route": "index.hak8ewlcrd.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\index.html",
+      "Route": "app.4mh1c3zs4y.js",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -113,19 +197,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2261"
+          "Value": "367"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"ubbnPcwtf1J/ShHtxpOrnCNhtebzXZ7jGl63NJLA3Bw=\""
+          "Value": "\"bLdeRG0TLA1TAf9DVCLvvVka+0AWqavVGKmNiLi54jM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:18:38 GMT"
+          "Value": "Wed, 08 Jul 2020 17:03:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -135,7 +219,253 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hak8ewlcrd"
+          "Value": "4mh1c3zs4y"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bLdeRG0TLA1TAf9DVCLvvVka+0AWqavVGKmNiLi54jM="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bLdeRG0TLA1TAf9DVCLvvVka+0AWqavVGKmNiLi54jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jul 2020 17:03:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bLdeRG0TLA1TAf9DVCLvvVka+0AWqavVGKmNiLi54jM="
+        }
+      ]
+    },
+    {
+      "Route": "img/log.7vr240vm1k.svg",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\log.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k+3l+zHhltQHI6agYXULhrQ4M2/Cw1eL/R+9AnDJ6EU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jul 2020 17:03:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7vr240vm1k"
+        },
+        {
+          "Name": "label",
+          "Value": "img/log.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k+3l+zHhltQHI6agYXULhrQ4M2/Cw1eL/R+9AnDJ6EU="
+        }
+      ]
+    },
+    {
+      "Route": "img/log.svg",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\log.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k+3l+zHhltQHI6agYXULhrQ4M2/Cw1eL/R+9AnDJ6EU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jul 2020 17:03:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k+3l+zHhltQHI6agYXULhrQ4M2/Cw1eL/R+9AnDJ6EU="
+        }
+      ]
+    },
+    {
+      "Route": "img/register.feyplrt2cv.svg",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\register.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mbSqpg+Y1vftj78dpFTwu957kbMtv8ouGVZn174gw0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jul 2020 17:03:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "feyplrt2cv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/register.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mbSqpg+Y1vftj78dpFTwu957kbMtv8ouGVZn174gw0s="
+        }
+      ]
+    },
+    {
+      "Route": "img/register.svg",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\register.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mbSqpg+Y1vftj78dpFTwu957kbMtv8ouGVZn174gw0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jul 2020 17:03:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mbSqpg+Y1vftj78dpFTwu957kbMtv8ouGVZn174gw0s="
+        }
+      ]
+    },
+    {
+      "Route": "index.d6wv9of81f.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W1Jiez0XzGHfpXXTLCVFc1We/8Jma90TVgbKkjQWNjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:14:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d6wv9of81f"
         },
         {
           "Name": "label",
@@ -143,7 +473,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ubbnPcwtf1J/ShHtxpOrnCNhtebzXZ7jGl63NJLA3Bw="
+          "Value": "sha256-W1Jiez0XzGHfpXXTLCVFc1We/8Jma90TVgbKkjQWNjU="
         }
       ]
     },
@@ -158,7 +488,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2261"
+          "Value": "7358"
         },
         {
           "Name": "Content-Type",
@@ -166,11 +496,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ubbnPcwtf1J/ShHtxpOrnCNhtebzXZ7jGl63NJLA3Bw=\""
+          "Value": "\"W1Jiez0XzGHfpXXTLCVFc1We/8Jma90TVgbKkjQWNjU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:18:38 GMT"
+          "Value": "Tue, 29 Apr 2025 14:14:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -180,7 +510,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ubbnPcwtf1J/ShHtxpOrnCNhtebzXZ7jGl63NJLA3Bw="
+          "Value": "sha256-W1Jiez0XzGHfpXXTLCVFc1We/8Jma90TVgbKkjQWNjU="
         }
       ]
     },
@@ -427,6 +757,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-P/fysKUF6Ucd1jeHBWFwKQEPda507Qn1S/OMcSSqRTU="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IT1qXp3VaTSlrlw512GzURFvd7Pp6IewWIV2yCoddUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jul 2020 17:03:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IT1qXp3VaTSlrlw512GzURFvd7Pp6IewWIV2yCoddUA="
+        }
+      ]
+    },
+    {
+      "Route": "style.zvm85ug9vg.css",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IT1qXp3VaTSlrlw512GzURFvd7Pp6IewWIV2yCoddUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jul 2020 17:03:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zvm85ug9vg"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IT1qXp3VaTSlrlw512GzURFvd7Pp6IewWIV2yCoddUA="
         }
       ]
     }

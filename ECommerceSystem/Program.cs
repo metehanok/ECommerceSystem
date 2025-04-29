@@ -74,6 +74,15 @@ builder.Services.AddScoped<IValidator<CustomerUpdateDTO>,CustomerUpdateDTOValida
 builder.Services.AddScoped<IValidator<OrderDetailCreateDTO>, OrderDetailsCreateDTOValidator>();
 builder.Services.AddScoped<IValidator<OrderDetailUpdateDTO>, OrderDetailUpdateDTOValidator>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("FrontendPolicy", policy =>
+    {
+        policy.WithOrigins("https://localhost:44320","https://ecommercesystem-1.onrender.com")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 builder.Services.AddEndpointsApiExplorer();
 var app = builder.Build();
@@ -92,12 +101,15 @@ if (app.Environment.IsDevelopment())
 
 }
 
-app.UseCors(build=>
-    
-    build.WithOrigins("https://ecommercesystem-1.onrender.com") // Frontend URL'sini buraya ekleyin
-              .AllowAnyMethod()
-              .AllowAnyOrigin()
-              .AllowAnyHeader());
+//app.UseCors(build=>
+
+//    build.WithOrigins("https://ecommercesystem-1.onrender.com") // Frontend URL'sini buraya ekleyin
+//              .AllowAnyMethod()              
+//              .AllowAnyHeader());
+
+
+app.UseCors("FrontendPolicy");
+
 
 app.UseDefaultFiles(); // Varsayýlan dosya olarak 'index.html' kullanýlýr
 app.UseStaticFiles();

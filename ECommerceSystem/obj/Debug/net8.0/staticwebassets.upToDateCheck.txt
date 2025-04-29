@@ -1,4 +1,8 @@
+wwwroot\app.js
+wwwroot\img\log.svg
+wwwroot\img\register.svg
 wwwroot\index.html
 wwwroot\order.html
 wwwroot\orderslisting.html
 wwwroot\register.html
+wwwroot\style.css
