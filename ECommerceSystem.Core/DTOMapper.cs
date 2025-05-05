@@ -20,6 +20,10 @@ namespace ECommerceSystem.Service
             CreateMap<CustomerCreateDTO,Customers>();
             CreateMap<CustomerCreateDTO, Customers>();
 
+            CreateMap<Orders, OrderDetailReadDTO>();
+          
+            
+      
             CreateMap<Products,ProductReadDTO>().ForMember(x=>x.CategoryName,opt=>opt.MapFrom(z=>z.Category.Name));
             CreateMap<ProductCreateDTO,Products>();
             CreateMap<ProductUpdateDTO,Products>();
@@ -40,6 +44,8 @@ namespace ECommerceSystem.Service
             CreateMap<OrderDetails, OrderDetailReadDTO>().ForMember(x=>x.ProductName,opt=>opt.MapFrom(x=>x.Products.Name));
             CreateMap<OrderDetailCreateDTO,OrderDetails>();
             CreateMap<OrderDetailCreateDTO,OrderDetails>();
+
+           
 
 
         }

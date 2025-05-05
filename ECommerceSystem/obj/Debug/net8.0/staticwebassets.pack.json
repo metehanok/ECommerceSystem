@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\order.html"
     },
     {
+      "Id": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\orderdetails.html",
+      "PackagePath": "staticwebassets\\orderdetails.html"
+    },
+    {
       "Id": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\orderslisting.html",
       "PackagePath": "staticwebassets\\orderslisting.html"
     },

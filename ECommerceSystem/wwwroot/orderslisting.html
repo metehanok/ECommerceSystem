@@ -9,7 +9,7 @@
     <div id="orderList">Yükleniyor...</div>
 
     <button onclick="logout()">Çıkış Yap</button>
-
+    <button onclick="createOrder()">Sipariş Oluştur</button>
     <script>
         const customerId = localStorage.getItem("customerId");
 
@@ -17,12 +17,19 @@
             alert("Lütfen önce giriş yapın.");
             window.location.href = "index.html";
         } else {
+            const baseUrl = window.location.origin;
 
-            fetch(`https://localhost:44320/api/order/customer/${customerId}`)
+            fetch(`${baseUrl}/api/order/customer/${customerId}`)
                 .then(res => res.json())
                 .then(data => {
+                    console.log("Gelen veri:", data);
                     const orderList = document.getElementById("orderList");
                     orderList.innerHTML = "";
+
+                    if (!Array.isArray(data)) {
+                        orderList.innerHTML = "Siparişler alınamadı. Beklenmeyen veri formatı.";
+                        return;
+                    }
 
                     if (data.length === 0) {
                         orderList.innerHTML = "Hiç siparişiniz yok.";
@@ -32,14 +39,18 @@
                     data.forEach(order => {
                         const orderItem = document.createElement("div");
                         orderItem.innerHTML = `
-                <hr />
-                <p><strong>Sipariş ID:</strong> ${order.id}</p>
-                <p><strong>Tarih:</strong> ${new Date(order.orderDate).toLocaleDateString()}</p>
-                <p><strong>Tutar:</strong> ${order.totalAmount} ₺</p>
-              `;
+             <hr />
+                    <p><strong>Sipariş ID:</strong> ${order.id}</p>
+                    <p><strong>Tarih:</strong> ${new Date(order.orderDate).toLocaleDateString()}</p>
+                    <p><strong>Tutar:</strong> ${order.totalAmount} ₺</p>
+                    <button onclick="viewDetails(${order.id})">Detaylar</button>
+
+                    
+        `;
                         orderList.appendChild(orderItem);
                     });
                 })
+
                 .catch(err => {
                     console.error(err);
                     document.getElementById("orderList").innerText = "Siparişler yüklenemedi.";
@@ -49,6 +60,13 @@
             localStorage.removeItem("customerId");
             window.location.href = "index.html";
         }
+        function createOrder() {
+            window.location.href = "order.html";
+        }
+        function viewDetails(orderId) {
+            window.location.href = `orderdetails.html?orderId=${orderId}`;
+        }
+
     </script>
 </body>
 </html>

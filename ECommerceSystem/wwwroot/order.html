@@ -18,7 +18,7 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
-        input, button {
+        input, button, select {
             display: block;
             width: 100%;
             margin-bottom: 15px;
@@ -39,9 +39,13 @@
     <div class="container">
         <h2>Yeni Sipariş Oluştur</h2>
 
-        
         <input type="datetime-local" id="orderDate" placeholder="Tarih" required />
-        <input type="number" id="productId" placeholder="Ürün" required />
+
+        <!-- Ürün Dropdown -->
+        <select id="productId" required>
+            <option value="" disabled selected>Ürün Seçin</option>
+        </select>
+
         <input type="number" id="quantity" placeholder="Adet" required />
 
         <button onclick="createOrder()">Sipariş Gönder</button>
@@ -50,38 +54,79 @@
     </div>
 
     <script>
-    async function createOrder() {
-      const customerId = document.getElementById("customerId").value;
-      const orderDate = document.getElementById("orderDate").value;
-      const productId = document.getElementById("productId").value;
-      const quantity = document.getElementById("quantity").value;
+        // Veritabanındaki ürünleri çekme
+        async function fetchProducts() {
+            const baseUrl = window.location.origin;
+            try {
+                const response = await fetch(`${baseUrl}/api/product`);
+                const products = await response.json();
+                const productSelect = document.getElementById("productId");
 
-      const orderData = {
-        customerId: parseInt(customerId),
-        orderDate: new Date(orderDate).toISOString(),
-        products: [
-          {
-            productId: parseInt(productId),
-            quantity: parseInt(quantity)
-          }
-        ]
-      };
+                // Dropdown'a ürünleri ekleme
+                products.forEach(product => {
+                    const option = document.createElement("option");
+                    option.value = product.id;
+                    option.textContent = product.name; // Ürün ismi
+                    productSelect.appendChild(option);
+                });
+            } catch (error) {
+                console.error("Ürünler alınamadı:", error);
+            }
+        }
 
-      try {
-        const res = await fetch("https://localhost:44320/api/order", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(orderData)
-        });
+        // Sipariş oluşturma
+        async function createOrder() {
+            const customerId = localStorage.getItem("customerId"); // burada düzeltme yaptım
+            const orderDate = document.getElementById("orderDate").value;
+            const productId = document.getElementById("productId").value;
+            const quantity = document.getElementById("quantity").value;
 
-        const data = await res.json();
-        document.getElementById("responseArea").innerText = JSON.stringify(data, null, 2);
-      } catch (err) {
-        document.getElementById("responseArea").innerText = "Hata oluştu: " + err.message;
-      }
-    }
+            const orderData = {
+                customerId: parseInt(customerId),
+                orderDate: new Date(orderDate).toISOString(),
+                products: [
+                    {
+                        productId: parseInt(productId),
+                        quantity: parseInt(quantity)
+                    }
+                ]
+            };
+
+            try {
+                const res = await fetch("https://localhost:44320/api/order", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(orderData)
+                });
+
+                const text = await res.text(); // önce düz metin olarak al
+                let data;
+
+                try {
+                    data = JSON.parse(text); // geçerli JSON ise parse et
+                } catch (jsonErr) {
+                    throw new Error("Sunucudan geçersiz JSON döndü:\n" + text);
+                }
+
+                if (!res.ok) {
+                    throw new Error(data?.error || "Bilinmeyen bir sunucu hatası");
+                }
+
+                document.getElementById("responseArea").innerText = JSON.stringify(data, null, 2);
+            } catch (err) {
+                document.getElementById("responseArea").innerText = "Hata oluştu: " + err.message;
+            }
+        }
+
+
+        
+        
+
+        // Sayfa yüklendiğinde ürünleri çek
+        fetchProducts();
     </script>
 </body>
 </html>
+

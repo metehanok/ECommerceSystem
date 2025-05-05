@@ -21,6 +21,6 @@ namespace ECommerceSystem.Core.Models
         public Orders Orders { get; set; }
 
         public decimal TotalPrice { get; set; }
-
+        
     }
 }

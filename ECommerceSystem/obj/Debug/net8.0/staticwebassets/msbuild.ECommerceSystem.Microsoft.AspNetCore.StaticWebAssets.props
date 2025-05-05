@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>owp4p9ntxi</Fingerprint>
-      <Integrity>KIkU0aIqalgA+L1z/I3iNI8Iwv282LYmCF/v27+dasM=</Integrity>
+      <Fingerprint>jqgkeurh7k</Fingerprint>
+      <Integrity>RXjLLprJIPb/Q7AtvU9q3L755PPb7Gpw4O4p3pAvWjU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -84,11 +84,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lp5qscvg8w</Fingerprint>
-      <Integrity>lyQBV9LRcwme600gELNzOcusSDbfEMbMKa2b0xe+tXg=</Integrity>
+      <Fingerprint>l0yzr47emj</Fingerprint>
+      <Integrity>C+5Ep9YOGsO+1BPisvK79ZDGjKzagnNsCXp5DxDP6Rs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\order.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\orderdetails.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ECommerceSystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ECommerceSystem</BasePath>
+      <RelativePath>orderdetails.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ypyk7cnuqc</Fingerprint>
+      <Integrity>OgzepDJsnNHO2wzStWPUGRBLjcROTT9to877L/t8cak=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\orderdetails.html'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\orderslisting.html'))">
       <SourceType>Package</SourceType>
@@ -102,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gbn9dydax8</Fingerprint>
-      <Integrity>TCPxSNqqzIdKVTzgZ5AFpGxFpteYfHOuxfb+CL9LDXc=</Integrity>
+      <Fingerprint>2feun2j6o3</Fingerprint>
+      <Integrity>fhMAg3ZN1P5PDo5H4Wz5A66BOAV7lvDgN7Vv4Qe4+lY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\orderslisting.html'))</OriginalItemSpec>

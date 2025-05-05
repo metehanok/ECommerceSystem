@@ -358,6 +358,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ECommerceSystem.Controllers.OrderDetailsController",
+    "Method": "GetOrderDetailsByCustomerId",
+    "RelativePath": "api/OrderDetails/customer/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceSystem.Controllers.OrderDetailsController",
+    "Method": "GetOrderDetailsByOrderId",
+    "RelativePath": "api/OrderDetails/order/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ECommerceSystem.Controllers.ProductController",
     "Method": "GetAllProducts",
     "RelativePath": "api/Product",

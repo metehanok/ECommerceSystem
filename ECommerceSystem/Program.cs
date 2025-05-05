@@ -10,6 +10,7 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using System;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,7 +20,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ECommerceDbContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer"))
         .EnableSensitiveDataLogging()
-        .LogTo(Console.WriteLine,LogLevel.Information));
+        .LogTo(Console.WriteLine, LogLevel.Information));
+//builder.Services.AddDbContext<ECommerceDbContext>(options =>
+//    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSql")));
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -78,11 +82,26 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("FrontendPolicy", policy =>
     {
-        policy.WithOrigins("https://localhost:44320","https://ecommercesystem-1.onrender.com")
+        policy.WithOrigins("https://localhost:44320", "https://ecommercesystem-1.onrender.com")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
 });
+//builder.WebHost.ConfigureKestrel(serverOptions =>
+//{
+//    serverOptions.ListenAnyIP(5000, listenOptions =>
+//    {
+//        listenOptions.UseHttps(); // Sertifika ayarlýysa bunu kullan
+//    });
+//}); 
+
+// HTTPS kaldýr ve sadece HTTP dinle:
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ListenAnyIP(5000); // HTTP olarak dinler
+});
+
+
 
 builder.Services.AddEndpointsApiExplorer();
 var app = builder.Build();
@@ -108,14 +127,16 @@ if (app.Environment.IsDevelopment())
 //              .AllowAnyHeader());
 
 
+app.UseDefaultFiles(); // Varsayýlan dosya olarak 'index.html' kullanýlýr
+app.UseStaticFiles();
+app.UseRouting();
+
 app.UseCors("FrontendPolicy");
 
 
-app.UseDefaultFiles(); // Varsayýlan dosya olarak 'index.html' kullanýlýr
-app.UseStaticFiles();
-
-builder.WebHost.UseUrls("http://0.0.0.0:5001");//render için 
+//builder.WebHost.UseUrls("http://0.0.0.0:5001");//render için 
 app.UseHttpsRedirection();
+
 
 app.UseAuthorization();
 

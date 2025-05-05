@@ -39,11 +39,22 @@ namespace ECommerceSystem.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateOrders([FromBody] OrderCreateDTO orderCreateDTO)
         {
-            var validationResult=await _orderCreateDtoValidator.ValidateAsync(orderCreateDTO);
-            if(!validationResult.IsValid) 
-                return BadRequest(validationResult.Errors);
-            var createdOrder=await _orderService.AddOrdersAsync(orderCreateDTO);
-            return CreatedAtAction(nameof(GetOrdersById), new {id=createdOrder.Id},createdOrder);
+            try
+            {
+                var validationResult = await _orderCreateDtoValidator.ValidateAsync(orderCreateDTO);
+                if (!validationResult.IsValid)
+                    return BadRequest(validationResult.Errors);
+                var createdOrder = await _orderService.AddOrdersAsync(orderCreateDTO);
+                return CreatedAtAction(nameof(GetOrdersById), new { id = createdOrder.Id }, createdOrder);
+            }catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    error = ex.Message,
+                    inner = ex.InnerException?.Message,
+                    stack = ex.StackTrace
+                });
+            }
             
         }
 

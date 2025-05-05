@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sipariş Detayları</title>
+</head>
+<body>
+    <h2>Sipariş Detayları</h2>
+    <div id="orderDetails">Yükleniyor...</div>
+
+    <button onclick="goBack()">Geri</button>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const orderId = urlParams.get("orderId");
+        const baseUrl = window.location.origin;
+
+        if (!orderId) {
+            alert("Sipariş ID'si bulunamadı.");
+            window.location.href = "orderslisting.html";
+        }
+
+        fetch(`${baseUrl}/api/orderdetails/order/${orderId}`)
+            .then(res => {
+                if (!res.ok) throw new Error("Sunucu hatası");
+                return res.json();
+            })
+            .then(data => {
+                const container = document.getElementById("orderDetails");
+                container.innerHTML = "";
+
+                if (!Array.isArray(data) || data.length === 0) {
+                    container.innerHTML = "Bu siparişe ait detay bulunamadı.";
+                    return;
+                }
+
+                data.forEach(detail => {
+                    const item = document.createElement("div");
+                    item.innerHTML = `
+                        <hr />
+                        <p><strong>Ürün:</strong> ${detail.productName}</p>
+                        <p><strong>Adet:</strong> ${detail.quantity}</p>
+                        <p><strong>Birim Fiyat:</strong> ${detail.price} ₺</p>
+                        <p><strong>Toplam:</strong> ${detail.totalPrice} ₺</p>
+                    `;
+                    container.appendChild(item);
+                });
+            })
+            .catch(err => {
+                console.error(err);
+                document.getElementById("orderDetails").innerText = "Detaylar yüklenemedi.";
+            });
+
+        function goBack() {
+            window.location.href = "orderslisting.html";
+        }
+    </script>
+</body>
+</html>

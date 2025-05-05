@@ -14,6 +14,7 @@ namespace ECommerceSystem.Service.DTO
         [Required]
         public int Quantity { get; set; }
         [Required]
+      
         public decimal Price { get; set; }
         public int ProductId { get; set; }
         public string ProductName { get; set; }
@@ -22,5 +23,9 @@ namespace ECommerceSystem.Service.DTO
 
         public int OrderId { get; set; }
 
+        public static implicit operator List<object>(OrderDetailReadDTO v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

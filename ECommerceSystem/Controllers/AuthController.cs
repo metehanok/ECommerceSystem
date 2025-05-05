@@ -42,7 +42,8 @@ public class AuthController : ControllerBase
             return Unauthorized(new { message = "Geçersiz e-posta veya şifre" });
         }
 
-        return Ok(new { message = "Giriş başarılı", customer });
+        return Ok(new { message = "Giriş başarılı", customerId = customer.Id ,name=customer.Name});
+
     }
 }
 

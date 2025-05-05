@@ -16,5 +16,7 @@ namespace ECommerceSystem.Core.IServices
         Task<OrderDetailReadDTO> AddOrderDetailsAsync(OrderDetailCreateDTO orderDetailCreateDto);
         Task<bool> UpdateOrderDetailsAsync(OrderDetailUpdateDTO orderDetailUpdateDto,int id);
         Task<bool> DeleteOrderDetailsAsync(int id);
+        Task<IEnumerable<OrderDetailReadDTO>> GetOrderDetailsByCustomerIdAsync(int customerid);
+        Task<IEnumerable<OrderDetailReadDTO>> GetOrderDetailsByOrderId(int orderId);
     }
 }
