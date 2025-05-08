@@ -1,32 +1,32 @@
-# ?? ECommerceSystem
+ï»¿# ğŸ›’ ECommerceSystem
 
-ASP.NET Core Web API ve saf HTML/JavaScript ile geliştirilen bir e-ticaret uygulamasıdır. Proje, **katmanlı mimari**, **Entity Framework Core**, **PostgreSQL** ve **Render** platformu kullanılarak oluşturulmuştur.
-
----
-
-## ?? Live Demo
-
-- ?? **Frontend & API (Tek bir uygulama):** [https://ecommercesystem-1.onrender.com](https://ecommercesystem-1.onrender.com)
+ASP.NET Core Web API ve saf HTML/JavaScript ile geliÅŸtirilen bir e-ticaret uygulamasÄ±dÄ±r. Proje, **katmanlÄ± mimari**, **Entity Framework Core**, **SQL** ve **Render** platformu kullanÄ±larak oluÅŸturulmuÅŸtur.
 
 ---
 
-## ?? Genel Özellikler
+## ğŸŒ Live Demo
 
-- Müşteri kaydı ve giriş işlemleri
-- Sipariş oluşturma ve listeleme
-- Ürün listeleme (manuel SQL girişi ile destekleniyor)
-- SQL Azure veritabanı bağlantısı
-- Render üzerinde full-stack deploy
-- Basit, anlaşılır HTML kullanıcı arayüzü
+- ğŸ”— **Frontend & API (Tek bir uygulama):** [https://ecommercesystem-1.onrender.com](https://ecommercesystem-1.onrender.com)
 
 ---
 
-## ?? Proje Katmanları
+## ğŸ“Œ Genel Ã–zellikler
+
+- MÃ¼ÅŸteri kaydÄ± ve giriÅŸ iÅŸlemleri
+- SipariÅŸ oluÅŸturma ve listeleme
+- ÃœrÃ¼n listeleme (manuel SQL giriÅŸi ile destekleniyor)
+- SQL Azure veritabanÄ± baÄŸlantÄ±sÄ±
+- Render Ã¼zerinde full-stack deploy
+- Basit, anlaÅŸÄ±lÄ±r HTML kullanÄ±cÄ± arayÃ¼zÃ¼
+
+---
+
+## ğŸ§± Proje KatmanlarÄ±
 
 ```bash
 ECommerceSystem/
-??? Core/       # Entity modelleri ve arayüzler
-??? Data/       # DbContext ve Repository katmanı
-??? Service/    # İş kuralları ve servis sınıfları
-??? WebAPI/     # API Controller'ları ve endpoint'ler
-??? wwwroot/    # HTML, CSS ve JS dosyaları
+â”œâ”€â”€ Core/       # Entity modelleri ve arayÃ¼zler
+â”œâ”€â”€ Data/       # DbContext ve Repository katmanÄ±
+â”œâ”€â”€ Service/    # Ä°ÅŸ kurallarÄ± ve servis sÄ±nÄ±flarÄ±
+â”œâ”€â”€ WebAPI/     # API Controller'larÄ± ve endpoint'ler
+â”œâ”€â”€ wwwroot/    # HTML, CSS ve JS dosyalarÄ±
