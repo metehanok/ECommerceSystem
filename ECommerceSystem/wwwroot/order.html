@@ -81,6 +81,14 @@
             const productId = document.getElementById("productId").value;
             const quantity = document.getElementById("quantity").value;
 
+            const isLocal = window.location.hostname === "localhost";
+            const apiBaseUrl = isLocal
+                ? "https://localhost:44320" // local geliştirme ortamı
+                : "https://ecommerce-api-metehan.onrender.com"; // canlı ortam
+
+            const loginUrl = `${apiBaseUrl}/api/order`;
+
+
             const orderData = {
                 customerId: parseInt(customerId),
                 orderDate: new Date(orderDate).toISOString(),
@@ -93,7 +101,7 @@
             };
 
             try {
-                const res = await fetch("https://localhost:44320/api/order", {
+                const res = await fetch(loginUrl, {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"

@@ -82,52 +82,7 @@
         </div>
     </div>
 
-    <!--<script>
-        // Handle Sign Up button click (Show sign up form)
-        const sign_up_btn = document.querySelector("#sign-up-btn");
-        const sign_in_btn = document.querySelector("#sign-in-btn");
-        const container = document.querySelector(".container");
-
-        sign_up_btn.addEventListener("click", () => {
-            container.classList.add("sign-up-mode");
-        });
-
-        sign_in_btn.addEventListener("click", () => {
-            container.classList.remove("sign-up-mode");
-        });
-
-        // Event listener for sign-in form submission
-        document.getElementById("loginForm").addEventListener("submit", async (e) => {
-            e.preventDefault(); // Prevent form from reloading the page
-
-            const email = document.getElementById("email").value;
-            const password = document.getElementById("password").value;
-
-            // API request to login
-            fetch("https://localhost:44320/api/auth/login", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({ email, password })
-            })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error("Giriş başarısız.");
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    alert("Giriş başarılı: " + data.message);
-                    // İsteğe bağlı olarak token’ı sakla ve yönlendirme yap
-                })
-                .catch(error => {
-                    alert("Hata: " + error.message);
-                    console.error("Giriş hatası:", error);
-                });
-
-        });
-    </script>-->
+   
     <script>
         document.getElementById("loginForm").addEventListener("submit", async (e) => {
             e.preventDefault();
