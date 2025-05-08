@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Oo/PHsswbA=",
+  "dgSpecHash": "rvSaxW5E50g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj",
+  "projectFilePath": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem.Data\\ECommerceSystem.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Metehan Ok\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Metehan Ok\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
