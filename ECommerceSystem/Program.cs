@@ -3,6 +3,7 @@ using ECommerceSystem.Core.DTO;
 using ECommerceSystem.Core.IServices;
 using ECommerceSystem.Data.Repositories;
 using ECommerceSystem.Service;
+using ECommerceSystem.Data;
 using ECommerceSystem.Service.DTO;
 using ECommerceSystem.Service.Services;
 using ECommerceSystem.Validations;
@@ -105,6 +106,14 @@ builder.WebHost.ConfigureKestrel(serverOptions =>
 
 builder.Services.AddEndpointsApiExplorer();
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ECommerceDbContext>();
+    context.Database.Migrate(); // Migration'larý uygular
+}
+
+app.MapGet("/", () => "Hello World!");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

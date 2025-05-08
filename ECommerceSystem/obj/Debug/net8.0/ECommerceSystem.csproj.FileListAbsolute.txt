@@ -319,3 +319,4 @@ C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem\obj\Debug\n
 C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.pdb
 C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem\obj\Debug\net8.0\ECommerceSystem.genruntimeconfig.cache
 C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem\obj\Debug\net8.0\ref\ECommerceSystem.dll
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
