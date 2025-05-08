@@ -11,3 +11,16 @@ C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem.Core\obj\Debug\
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem.Core\obj\Debug\net8.0\refint\ECommerceSystem.Core.dll
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.pdb
 C:\Users\Metehan Ok\source\repos\ECommerceSystem\ECommerceSystem.Core\obj\Debug\net8.0\ref\ECommerceSystem.Core.dll
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\bin\Debug\net8.0\ECommerceSystem.Core.deps.json
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\bin\Debug\net8.0\ECommerceSystem.Core.dll
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\bin\Debug\net8.0\ECommerceSystem.Core.pdb
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.csproj.AssemblyReference.cache
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.AssemblyInfoInputs.cache
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.AssemblyInfo.cs
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.sourcelink.json
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.dll
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\obj\Debug\net8.0\refint\ECommerceSystem.Core.dll
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\obj\Debug\net8.0\ECommerceSystem.Core.pdb
+C:\Users\Metehan Ok\source\repos\ECommerceSystem.API\ECommerceSystem.Core\obj\Debug\net8.0\ref\ECommerceSystem.Core.dll

@@ -59,6 +59,17 @@ namespace ECommerceSystem.Data.Repositories
                 .WithMany(od=>od.OrderDetails)
                 .HasForeignKey(f=>f.OrderId)
                 .OnDelete(DeleteBehavior.Cascade);//sipariş silinirse detayları da silinie
+            modelBuilder.Entity<Products>()
+                 .Property(p => p.Price)
+                 .HasPrecision(18, 2);
+
+            modelBuilder.Entity<OrderDetails>()
+                .Property(o => o.Price)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<OrderDetails>()
+                .Property(o => o.TotalPrice)
+                .HasPrecision(18, 2);
         }
     }
 }

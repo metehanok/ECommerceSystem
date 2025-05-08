@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S+kTRLebMNz0x3+ATP5EbnexwIE1vKeaegVIrRGVLq0=",
+  "Hash": "jf5lEsc1JWIt4MCfJxgNmMgLu9XzXoF9PGDl6RkoFlM=",
   "Source": "ECommerceSystem",
   "BasePath": "_content/ECommerceSystem",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ECommerceSystem\\wwwroot",
       "Source": "ECommerceSystem",
-      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\",
       "BasePath": "_content/ECommerceSystem",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\app.js",
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\app.js",
       "SourceId": "ECommerceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\",
       "BasePath": "_content/ECommerceSystem",
       "RelativePath": "app#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\app.js"
     },
     {
-      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\log.svg",
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\img\\log.svg",
       "SourceId": "ECommerceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\",
       "BasePath": "_content/ECommerceSystem",
       "RelativePath": "img/log#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\img\\log.svg"
     },
     {
-      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\register.svg",
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\img\\register.svg",
       "SourceId": "ECommerceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\",
       "BasePath": "_content/ECommerceSystem",
       "RelativePath": "img/register#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\img\\register.svg"
     },
     {
-      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\index.html",
       "SourceId": "ECommerceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\",
       "BasePath": "_content/ECommerceSystem",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\order.html",
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\order.html",
       "SourceId": "ECommerceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\",
       "BasePath": "_content/ECommerceSystem",
       "RelativePath": "order#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\order.html"
     },
     {
-      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\orderdetails.html",
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\orderdetails.html",
       "SourceId": "ECommerceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\",
       "BasePath": "_content/ECommerceSystem",
       "RelativePath": "orderdetails#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\orderdetails.html"
     },
     {
-      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\orderslisting.html",
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\orderslisting.html",
       "SourceId": "ECommerceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\",
       "BasePath": "_content/ECommerceSystem",
       "RelativePath": "orderslisting#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\orderslisting.html"
     },
     {
-      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\register.html",
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\register.html",
       "SourceId": "ECommerceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\",
       "BasePath": "_content/ECommerceSystem",
       "RelativePath": "register#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\register.html"
     },
     {
-      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\style.css",
+      "Identity": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\style.css",
       "SourceId": "ECommerceSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\",
       "BasePath": "_content/ECommerceSystem",
       "RelativePath": "style#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -209,7 +209,7 @@
   "Endpoints": [
     {
       "Route": "app.4mh1c3zs4y.js",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\app.js",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -254,7 +254,7 @@
     },
     {
       "Route": "app.js",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\app.js",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -291,7 +291,7 @@
     },
     {
       "Route": "img/log.7vr240vm1k.svg",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\log.svg",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\img\\log.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -336,7 +336,7 @@
     },
     {
       "Route": "img/log.svg",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\log.svg",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\img\\log.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -373,7 +373,7 @@
     },
     {
       "Route": "img/register.feyplrt2cv.svg",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\register.svg",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\img\\register.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -418,7 +418,7 @@
     },
     {
       "Route": "img/register.svg",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\img\\register.svg",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\img\\register.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -455,7 +455,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -492,7 +492,7 @@
     },
     {
       "Route": "index.jqgkeurh7k.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -537,7 +537,7 @@
     },
     {
       "Route": "order.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\order.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\order.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -574,7 +574,7 @@
     },
     {
       "Route": "order.l0yzr47emj.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\order.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\order.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -619,7 +619,7 @@
     },
     {
       "Route": "orderdetails.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\orderdetails.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\orderdetails.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -656,7 +656,7 @@
     },
     {
       "Route": "orderdetails.ypyk7cnuqc.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\orderdetails.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\orderdetails.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -701,7 +701,7 @@
     },
     {
       "Route": "orderslisting.2feun2j6o3.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\orderslisting.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\orderslisting.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -746,7 +746,7 @@
     },
     {
       "Route": "orderslisting.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\orderslisting.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\orderslisting.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -783,7 +783,7 @@
     },
     {
       "Route": "register.72jzss2spj.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\register.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\register.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -828,7 +828,7 @@
     },
     {
       "Route": "register.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\register.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\register.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -865,7 +865,7 @@
     },
     {
       "Route": "style.css",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\style.css",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -902,7 +902,7 @@
     },
     {
       "Route": "style.zvm85ug9vg.css",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem\\ECommerceSystem\\wwwroot\\style.css",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
