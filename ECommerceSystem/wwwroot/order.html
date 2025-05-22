@@ -2,57 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Order Oluştur</title>
-    <style>
-        body {
-            font-family: Arial;
-            margin: 30px;
-            background: #f4f4f4;
-        }
-
-        .container {
-            max-width: 600px;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-
-        input, button, select {
-            display: block;
-            width: 100%;
-            margin-bottom: 15px;
-            padding: 10px;
-            font-size: 16px;
-        }
-
-        .response {
-            margin-top: 20px;
-            white-space: pre-wrap;
-            background: #eee;
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Yeni Sipariş Oluştur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <h2>Yeni Sipariş Oluştur</h2>
+<body class="bg-light">
 
-        <input type="datetime-local" id="orderDate" placeholder="Tarih" required />
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+        <a class="navbar-brand" href="#">ECommerceSystem</a>
+    </nav>
 
-        <!-- Ürün Dropdown -->
-        <select id="productId" required>
-            <option value="" disabled selected>Ürün Seçin</option>
-        </select>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-4">🛒 Yeni Sipariş Oluştur</h4>
 
-        <input type="number" id="quantity" placeholder="Adet" required />
+                        <div class="mb-3">
+                            <label for="orderDate" class="form-label">Sipariş Tarihi</label>
+                            <input type="datetime-local" class="form-control" id="orderDate" required />
+                        </div>
 
-        <button onclick="createOrder()">Sipariş Gönder</button>
+                        <div class="mb-3">
+                            <label for="productId" class="form-label">Ürün Seç</label>
+                            <select id="productId" class="form-select" required>
+                                <option value="" disabled selected>Ürün Seçin</option>
+                            </select>
+                        </div>
 
-        <div class="response" id="responseArea"></div>
+                        <div class="mb-3">
+                            <label for="quantity" class="form-label">Adet</label>
+                            <input type="number" id="quantity" class="form-control" placeholder="Adet" required />
+                        </div>
+
+                        <button onclick="createOrder()" class="btn btn-success w-100">Siparişi Gönder</button>
+
+                        <div class="response alert alert-light mt-4" id="responseArea" style="white-space: pre-wrap;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<
     <script>
         // Veritabanındaki ürünleri çekme
         async function fetchProducts() {
@@ -125,8 +121,8 @@
         }
 
 
-        
-        
+
+
 
         // Sayfa yüklendiğinde ürünleri çek
         fetchProducts();

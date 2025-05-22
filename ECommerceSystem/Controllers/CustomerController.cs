@@ -62,6 +62,7 @@ namespace ECommerceSystem.Controllers
             var deletedCustomer=await _customerService.DeleteCustomerAsync(id);
             if(!deletedCustomer) return NotFound();
             return Ok(deletedCustomer);
+            
         }
     }
 }

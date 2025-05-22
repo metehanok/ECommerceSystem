@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jf5lEsc1JWIt4MCfJxgNmMgLu9XzXoF9PGDl6RkoFlM=",
+  "Hash": "qysjjDcuBao8vVMfeBw0OwCcWpmGnhpcmozi7BtSZX8=",
   "Source": "ECommerceSystem",
   "BasePath": "_content/ECommerceSystem",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jqgkeurh7k",
-      "Integrity": "RXjLLprJIPb/Q7AtvU9q3L755PPb7Gpw4O4p3pAvWjU=",
+      "Fingerprint": "hnt18r8sbp",
+      "Integrity": "XSAUuo4RBmQ8DMdFtKpeX/4lQjem7fMFy8YAyFR8UOs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "l0yzr47emj",
-      "Integrity": "C+5Ep9YOGsO+1BPisvK79ZDGjKzagnNsCXp5DxDP6Rs=",
+      "Fingerprint": "aj5vji63ex",
+      "Integrity": "Ojc8ZWMFDl2prBscuOe/xlWLixLlKRK0M+uJwoK68bM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\order.html"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ypyk7cnuqc",
-      "Integrity": "OgzepDJsnNHO2wzStWPUGRBLjcROTT9to877L/t8cak=",
+      "Fingerprint": "2fv5pirmhy",
+      "Integrity": "smCS4MEPEXH6Wn4O4f8Lm46h5ealMhMRpXYPf8WcOjw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\orderdetails.html"
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2feun2j6o3",
-      "Integrity": "fhMAg3ZN1P5PDo5H4Wz5A66BOAV7lvDgN7Vv4Qe4+lY=",
+      "Fingerprint": "x19cfbv3xt",
+      "Integrity": "1eMQ1LvSrYhs+t963vJj0ytPVBpcyuNpUH6g6RZp+/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\orderslisting.html"
@@ -454,6 +454,51 @@
       ]
     },
     {
+      "Route": "index.hnt18r8sbp.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XSAUuo4RBmQ8DMdFtKpeX/4lQjem7fMFy8YAyFR8UOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:04:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hnt18r8sbp"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XSAUuo4RBmQ8DMdFtKpeX/4lQjem7fMFy8YAyFR8UOs="
+        }
+      ]
+    },
+    {
       "Route": "index.html",
       "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\index.html",
       "Selectors": [],
@@ -464,7 +509,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8124"
+          "Value": "6281"
         },
         {
           "Name": "Content-Type",
@@ -472,11 +517,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RXjLLprJIPb/Q7AtvU9q3L755PPb7Gpw4O4p3pAvWjU=\""
+          "Value": "\"XSAUuo4RBmQ8DMdFtKpeX/4lQjem7fMFy8YAyFR8UOs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 20:36:13 GMT"
+          "Value": "Thu, 08 May 2025 18:04:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -486,13 +531,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RXjLLprJIPb/Q7AtvU9q3L755PPb7Gpw4O4p3pAvWjU="
+          "Value": "sha256-XSAUuo4RBmQ8DMdFtKpeX/4lQjem7fMFy8YAyFR8UOs="
         }
       ]
     },
     {
-      "Route": "index.jqgkeurh7k.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\index.html",
+      "Route": "order.aj5vji63ex.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\order.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -501,7 +546,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8124"
+          "Value": "5187"
         },
         {
           "Name": "Content-Type",
@@ -509,11 +554,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RXjLLprJIPb/Q7AtvU9q3L755PPb7Gpw4O4p3pAvWjU=\""
+          "Value": "\"Ojc8ZWMFDl2prBscuOe/xlWLixLlKRK0M+uJwoK68bM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 20:36:13 GMT"
+          "Value": "Thu, 22 May 2025 09:55:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -523,15 +568,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jqgkeurh7k"
+          "Value": "aj5vji63ex"
         },
         {
           "Name": "label",
-          "Value": "index.html"
+          "Value": "order.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RXjLLprJIPb/Q7AtvU9q3L755PPb7Gpw4O4p3pAvWjU="
+          "Value": "sha256-Ojc8ZWMFDl2prBscuOe/xlWLixLlKRK0M+uJwoK68bM="
         }
       ]
     },
@@ -546,7 +591,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4254"
+          "Value": "5187"
         },
         {
           "Name": "Content-Type",
@@ -554,11 +599,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C+5Ep9YOGsO+1BPisvK79ZDGjKzagnNsCXp5DxDP6Rs=\""
+          "Value": "\"Ojc8ZWMFDl2prBscuOe/xlWLixLlKRK0M+uJwoK68bM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 21:31:29 GMT"
+          "Value": "Thu, 22 May 2025 09:55:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -568,13 +613,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-C+5Ep9YOGsO+1BPisvK79ZDGjKzagnNsCXp5DxDP6Rs="
+          "Value": "sha256-Ojc8ZWMFDl2prBscuOe/xlWLixLlKRK0M+uJwoK68bM="
         }
       ]
     },
     {
-      "Route": "order.l0yzr47emj.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\order.html",
+      "Route": "orderdetails.2fv5pirmhy.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\orderdetails.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -583,7 +628,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4254"
+          "Value": "3160"
         },
         {
           "Name": "Content-Type",
@@ -591,11 +636,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C+5Ep9YOGsO+1BPisvK79ZDGjKzagnNsCXp5DxDP6Rs=\""
+          "Value": "\"smCS4MEPEXH6Wn4O4f8Lm46h5ealMhMRpXYPf8WcOjw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 21:31:29 GMT"
+          "Value": "Thu, 22 May 2025 13:01:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -605,15 +650,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l0yzr47emj"
+          "Value": "2fv5pirmhy"
         },
         {
           "Name": "label",
-          "Value": "order.html"
+          "Value": "orderdetails.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-C+5Ep9YOGsO+1BPisvK79ZDGjKzagnNsCXp5DxDP6Rs="
+          "Value": "sha256-smCS4MEPEXH6Wn4O4f8Lm46h5ealMhMRpXYPf8WcOjw="
         }
       ]
     },
@@ -628,7 +673,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2073"
+          "Value": "3160"
         },
         {
           "Name": "Content-Type",
@@ -636,11 +681,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OgzepDJsnNHO2wzStWPUGRBLjcROTT9to877L/t8cak=\""
+          "Value": "\"smCS4MEPEXH6Wn4O4f8Lm46h5ealMhMRpXYPf8WcOjw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 22:13:31 GMT"
+          "Value": "Thu, 22 May 2025 13:01:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -650,97 +695,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OgzepDJsnNHO2wzStWPUGRBLjcROTT9to877L/t8cak="
-        }
-      ]
-    },
-    {
-      "Route": "orderdetails.ypyk7cnuqc.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\orderdetails.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2073"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OgzepDJsnNHO2wzStWPUGRBLjcROTT9to877L/t8cak=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 22:13:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ypyk7cnuqc"
-        },
-        {
-          "Name": "label",
-          "Value": "orderdetails.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OgzepDJsnNHO2wzStWPUGRBLjcROTT9to877L/t8cak="
-        }
-      ]
-    },
-    {
-      "Route": "orderslisting.2feun2j6o3.html",
-      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\orderslisting.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2580"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fhMAg3ZN1P5PDo5H4Wz5A66BOAV7lvDgN7Vv4Qe4+lY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 22:06:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2feun2j6o3"
-        },
-        {
-          "Name": "label",
-          "Value": "orderslisting.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fhMAg3ZN1P5PDo5H4Wz5A66BOAV7lvDgN7Vv4Qe4+lY="
+          "Value": "sha256-smCS4MEPEXH6Wn4O4f8Lm46h5ealMhMRpXYPf8WcOjw="
         }
       ]
     },
@@ -755,7 +710,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2580"
+          "Value": "4453"
         },
         {
           "Name": "Content-Type",
@@ -763,11 +718,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fhMAg3ZN1P5PDo5H4Wz5A66BOAV7lvDgN7Vv4Qe4+lY=\""
+          "Value": "\"1eMQ1LvSrYhs+t963vJj0ytPVBpcyuNpUH6g6RZp+/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 22:06:41 GMT"
+          "Value": "Thu, 22 May 2025 13:15:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -777,7 +732,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fhMAg3ZN1P5PDo5H4Wz5A66BOAV7lvDgN7Vv4Qe4+lY="
+          "Value": "sha256-1eMQ1LvSrYhs+t963vJj0ytPVBpcyuNpUH6g6RZp+/0="
+        }
+      ]
+    },
+    {
+      "Route": "orderslisting.x19cfbv3xt.html",
+      "AssetFile": "C:\\Users\\Metehan Ok\\source\\repos\\ECommerceSystem.API\\ECommerceSystem\\wwwroot\\orderslisting.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eMQ1LvSrYhs+t963vJj0ytPVBpcyuNpUH6g6RZp+/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 13:15:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x19cfbv3xt"
+        },
+        {
+          "Name": "label",
+          "Value": "orderslisting.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eMQ1LvSrYhs+t963vJj0ytPVBpcyuNpUH6g6RZp+/0="
         }
       ]
     },

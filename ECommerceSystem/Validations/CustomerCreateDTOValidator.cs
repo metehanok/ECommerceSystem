@@ -14,7 +14,7 @@ namespace ECommerceSystem.Validations
                 .MaximumLength(20).WithMessage("Maksimum uzunluk 20 karakter");
 
             RuleFor(x => x.Password).NotEmpty().WithMessage("Şifre alanı boş geçilemez")
-                .MaximumLength(10).WithMessage("Maksimum uzunluk 10 karakter");
+                .WithMessage("Maksimum uzunluk 20 karakter");//sorun burda 20ye arttırdın şimdi git ile güncelle
 
             RuleFor(x => x.Adress).NotEmpty().WithMessage("Adres alanı boş geçilemez")
                 .MaximumLength(100).WithMessage("Adres için maksimum karakter uzunluğu 100");
